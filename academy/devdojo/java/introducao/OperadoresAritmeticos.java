@@ -91,5 +91,24 @@ public class OperadoresAritmeticos {
         System.out.println(++contador2);  //Incrementa o valor e depois imprime.
 
 
-    }
+        /*Tabela verdade:
+
+        V && V = V
+        V && F = F
+        F && V = F
+        F && F = F
+        V && V && V && F = F
+
+        F || F = F
+        F || V = V
+        V || F = V
+        V || V = V
+        F || F || F || V = V        */
+
+
+
+
+
+
+}
 }
