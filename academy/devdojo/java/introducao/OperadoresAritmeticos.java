@@ -3,8 +3,8 @@ package academy.devdojo.java.introducao;
 public class OperadoresAritmeticos {
     public static void main(String[] args) {
 
-        /*Os operadores são: + - / * %
-         */
+        //Os operadores são: + - / * %
+
 
         int numero01 = 10;
         double numero02 = 20;
@@ -42,11 +42,11 @@ public class OperadoresAritmeticos {
         boolean isDezDiferenteDez = 10 != 10;
 
 
-        System.out.println("isDezMaiorQueVinte" + isDezMaiorQueVinte);
-        System.out.println("isDezMenorQueVinte" + isDezMenorQueVinte);
-        System.out.println("isDezIgualVinte" + isDezIgualVinte);
-        System.out.println("isDezIgualDez" + isDezIgualDez);
-        System.out.println("isDezDiferenteDez" + isDezDiferenteDez);
+        System.out.println("isDezMaiorQueVinte " + isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte " + isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte " + isDezIgualVinte);
+        System.out.println("isDezIgualDez " + isDezIgualDez);
+        System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
 
         //+ Operadores lógicos: && (AND) (duas condições precisam ser verdadeiras para ser verdadeiro)
         // || (or)  (basta uma das condições ser verdadeira para ser verdadeiro)
@@ -72,7 +72,7 @@ public class OperadoresAritmeticos {
 
         double bonus = 1800;  // 1800
         bonus += 1000; // 2800
-        bonus -= 1000;  //1800
+        bonus -= 1000;  //800
         bonus *= 2;   // Usa-se para abreviar, pois é o mesmo que bonus = bonus * 2
         bonus /= 2;
         bonus %= 2; //Ele retorna zero pois o número é par.

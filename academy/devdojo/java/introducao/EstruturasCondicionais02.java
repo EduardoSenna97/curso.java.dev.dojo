@@ -3,7 +3,7 @@ package academy.devdojo.java.introducao;
 public class EstruturasCondicionais02 {
     public static void main(String[] args) {
       /* idade < 15 ~ categoria infantil
-         idade >= 15 && idade < 18 ~ categoria juvenil
+         idade >= 15 && < idade 18 ~ categoria juvenil
          idade >=18 ~ categoria adulto
        */
 
@@ -11,7 +11,7 @@ public class EstruturasCondicionais02 {
 
         if(idade<15){
             System.out.println("Categoria Infatil");
-        }else if(idade >=15 && idade <18){
+        }else if(idade >=15 && idade <18){  //Preciso colocar a variável novamente depois do &&
             System.out.println("Categoria Juvenil");
         }else {
             System.out.println("Categoria Adulto");
@@ -29,7 +29,7 @@ public class EstruturasCondicionais02 {
         }
         /*
          Uma importante regra do Java é que todas as variáveis que estão dentro de um escopo local
-         (dentro de métodos) têm obrigariamente ser inicializadas antes de executá-las. Exemplo:
+         (dentro de métodos) devem obrigariamente ser inicializadas antes de executá-las. Exemplo:
 
               if(idade<15){
                        categoria = "Categoria Infatil";
@@ -37,7 +37,8 @@ public class EstruturasCondicionais02 {
                        categoria = "Categoria Juvenil";
               }
 
-         O programa não vai ser executado pois existe a chance da variável categoria não ser inicializada.
+         O programa não vai ser executado pois existe a chance da variável categoria não ser inicializada, pois faltou
+         o else.
          */
 
 

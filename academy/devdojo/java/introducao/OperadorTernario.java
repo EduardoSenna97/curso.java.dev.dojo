@@ -17,7 +17,7 @@ public class OperadorTernario {
         if(salarioAnual <= 34712) {
             valorImposto = salarioAnual * primeiraFaixa; //Poderia colocar simplificado: salarioAnual *= primeiraFaixa;
         }else if(salarioAnual >=34713 && salarioAnual <= 68507){
-            valorImposto = salarioAnual*segundaFaixa;
+            valorImposto = salarioAnual * segundaFaixa;
         }else{
             valorImposto = salarioAnual * terceiraFaixa;
         }

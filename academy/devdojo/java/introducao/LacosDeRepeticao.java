@@ -25,7 +25,7 @@ public class LacosDeRepeticao {
 
         //Variável local precisa ser inicializada antes de usar. Colocar um valor.
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             System.out.println("For " + i);
         }
         //E se eu quiser colcar a mensagem só no final da contagem do for? Verificar

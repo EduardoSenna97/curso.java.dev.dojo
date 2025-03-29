@@ -7,7 +7,7 @@ public class EstruturasCondicionais03 {
 
         Imprima o dia da semana, considerando 1 como domingo.           */
 
-        byte dia = 5;
+        byte dia = 7;
         /*Posso colocar variáveis do tipo char, int, byte, short, enum, String
         Se eu não mandar o switch parar, ele vai executar todos que forem após o valor da variável ter sido
         atingida.
@@ -55,7 +55,8 @@ public class EstruturasCondicionais03 {
 
         /* Exercício de Switch:
 
-        1. Utilizando switch e dados os valores de 1 a 7, imprima se é dia útil ou final de semana, considerando 1 como domingo.
+        1. Utilizando switch e dados os valores de 1 a 7, imprima se é dia útil ou final de semana, considerando 1 como
+         domingo.
 
          */
 
@@ -91,7 +92,7 @@ public class EstruturasCondicionais03 {
             switch (diaSemana){
                 case 1:
                 case 7:
-                    System.out.println("Dia útil");
+                    System.out.println("Final de semana");
                     break;
                 case 2:
                 case 3:
