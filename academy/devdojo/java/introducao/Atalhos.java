@@ -7,6 +7,8 @@ public class Atalhos {
         var atalho2 = "CNTRL + D = duplicas linha";
         var atalho3 = "CNTRL + Q = exibe informações";
         var atalho4 = "Alt + 1 = esconde a tela de projetos/classes";
+        var atalho5 = "Shift + F6 = altera o nome da classe";
+        var atalho6 = "CNTRL + B = vai para dentro da classe do método";
         /* Para criar um 'public static voidmain(String[] args) {    }' , posso escrever 'psvm'.
         Ponto de interrogação no meu teclado = ALTgr + W
         */

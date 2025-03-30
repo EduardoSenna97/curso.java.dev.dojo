@@ -1,4 +1,6 @@
-public class EstruturasCondicionais03 {
+package academy.devdojo.java.introducao;
+
+public class EstruturasCondicionais04 {
     public static void main(String[] args) {
 
         //Doar se salário > 5000
