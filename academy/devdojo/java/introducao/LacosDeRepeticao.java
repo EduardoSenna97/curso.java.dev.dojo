@@ -6,7 +6,7 @@ public class LacosDeRepeticao {
         /*while, do while, for
 
         while - Obrigatoriamente o que você coloca no while precisa resultar em um valor booleano.
-        Ele só executa se o for verdadeiro.
+        Ele só executa se for verdadeiro.
 
         do while - Irá executar pelo menos 1 vez, independente da condição ser verdadeira ou falsa.
 

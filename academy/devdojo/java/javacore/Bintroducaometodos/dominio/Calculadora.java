@@ -15,4 +15,11 @@ public class Calculadora {
     public void subtraiDoisNumeros(){
         System.out.println(21-2);
     }
+
+   // Parâmetros são variáveis locais/vidas durante o contexto do bloco. Elas seguem os mesmos padrões das variáveis.
+    public void multiplicaDoisNumeros(int num1, int num2){
+        System.out.println(num1 * num2);
+
+    }
+
 }
