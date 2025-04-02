@@ -65,5 +65,18 @@ public class LacosDeRepeticaoExerciciosBreaksEContinue {
             System.out.println("Parcela " + parcela + " R$ "+ valorParcela);
         }
 
+        int[] casas = new int[]{17, 54, 96, 23, 52};
+        int maior = casas[0];
+
+        for (int i = 1; i < casas.length; i++) {
+
+            if (casas[i] > maior) {
+                maior = casas[i];
+
+            }
+
+        }
+        System.out.println(maior);
+
     }
 }

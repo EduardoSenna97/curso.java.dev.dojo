@@ -49,8 +49,5 @@ public class EstruturasCondicionais01 {
         } else {
             System.out.println("Não autorizado a comprar bebida");
         }
-
-
     }
-
 }
