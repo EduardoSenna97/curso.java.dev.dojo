@@ -49,7 +49,8 @@ public class VetoresArrays01 {
             System.out.println(nomes[i]);
         }
 
-        nomes = new String[5]; // Posso fazer isso para alterar o tamnho, porém o espaço do antigo array será perdido.
+        String[] nomes2 = new String[5];
+        // Posso fazer isso para alterar o tamanho, porém o espaço do antigo array será perdido.
 
 
     }

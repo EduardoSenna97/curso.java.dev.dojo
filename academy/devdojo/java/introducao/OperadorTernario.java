@@ -22,5 +22,26 @@ public class OperadorTernario {
             valorImposto = salarioAnual * terceiraFaixa;
         }
         System.out.println(valorImposto);
+
+
+        //Operador ternário:
+
+        double salario2 = 7000;
+        String mensagemDoar2 = "Eu vou doar 500 pro DevDojo";
+        String mensagemNaoDoar2 = "Ainda não tenho condições, mas vou ter!";
+
+        //(condição) ? verdadeiro : falso
+
+        String resultado2 = salario2>5000 ? mensagemDoar2 : mensagemNaoDoar2;
+
+        //tenho que tomar cuidado para não colocar um valor que não seja o mesmo do tipo da variável.
+
+        System.out.println(resultado2);
+
+
+
+
     }
+
+
 }
