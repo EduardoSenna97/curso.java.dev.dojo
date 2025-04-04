@@ -17,8 +17,6 @@ public class CalculadoraTest01 {
         calculadora.multiplicaDoisNumeros(10, 20);
 
 
-
-
     }
 
 
