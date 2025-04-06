@@ -53,5 +53,29 @@ public class Calculadora {
 
     }
 
+    /* Passagens de parãmetros tipos primitivos:
 
+     a = 1 e b = 2 são copiados para numero1 e numero2.
+     Dentro do método, você muda os valores de numero1 e numero2 para 99 e 33, mas essas mudanças afetam
+     apenas as cópias.
+     Fora do método, a e b continuam com os valores originais, 1 e 2, porque não foram alterados diretamente,
+     só suas cópias.
+
+     É como se você tivesse duas folhas de papel:
+
+    Você escreve 1 e 2 nas suas folhas (a e b).
+    Depois, você tira cópias dessas folhas e as dá para o método (numero1 e numero2).
+    O método rabisca as cópias e escreve 99 e 33.
+    Mas as folhas originais (a e b) ainda estão intocadas com 1 e 2.
+
+     */
+
+    public void alteraDoisNumeros(int numero1, int numero2) {
+        numero1 = 99;
+        numero2 = 33;
+        System.out.println("Dentro do alteraDoisNumeros");
+        System.out.println("Num1 " + numero1);
+        System.out.println("Num2 " + numero2);
+
+    }
 }
