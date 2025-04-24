@@ -86,7 +86,7 @@ public class Calculadora {
         }
         System.out.println(soma);
     }
-    //VarArgs ~ tipo - 3 pontos (...) - nome da variável
+    //Sintaxe -> VarArgs ~ tipo - 3 pontos (...) - nome da variável
 
     public void somaVarArgs(int...numeros){
         int soma = 0;
@@ -95,5 +95,16 @@ public class Calculadora {
         }
         System.out.println(soma);
     }
-    
+    /*
+     O que muda entre VarArgs e Arrays é uma questão de sintaxe, porém o VarArgs é melhor, pois posso passar
+     os elementos para o método de forma mais facilitada.
+
+     É preciso seguir a sintaxe correta; os 3 pontos não podem ir depois.
+
+     Também não é possível passar outros atributos para o método DEPOIS do VarArgs, mas sim antes. Ele precisa ser
+     o último pois o Java não sabe quantos valores eu passo para ele, logo se não tiver fim o compilador fica confuso
+     sobre onde terminam os argumentos fixos e onde começam os valores do varArgs.
+
+     */
+
 }
